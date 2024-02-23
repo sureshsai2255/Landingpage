@@ -33,3 +33,11 @@ span{
 p{
    line-height: 1.5;
 }
+
+p span{
+   font-size: 20  px;
+}
+
+strong{
+   font-size: 20px;
+}

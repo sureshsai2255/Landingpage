@@ -7,10 +7,10 @@ export default function Home() {
     <div className="container">
 
       <div className="objective">
-        <p><h1>Hi I'm   <span className="span">SAI KRISHNA</span> </h1>
+        <p><strong>Hi I'm </strong>  <span className="span"><strong>SAI KRISHNA</strong></span>
         
         And i'm currently pursuing graduation in the specilization
-        of <h4>COMPUTER SCIENCE AND ENGINEERING.</h4>
+        of <strong>COMPUTER SCIENCE AND ENGINEERING.</strong>
         </p>
       </div>
       <div className="image">
