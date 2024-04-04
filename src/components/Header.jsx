@@ -4,15 +4,11 @@ import './header.css'
 export default function Header() {
   return (
   <div className="header">
-
-    <nav className="navbar">
-    <ul>
-      <li><Link to="/" className="link">Home</Link></li>
-      <li><Link to="/about"  className="link">About</Link></li>
-      <li><Link to="/contact" className="link">Contact</Link></li>
-    </ul>
-    </nav>
-
+    <div className="navbar">
+      <div className="items item1"><Link to = "/" className="link">Home</Link></div>
+      <div className="items item2"><Link to = "/about" className="link">About</Link></div>
+      <div className="items item3"><Link to = "/contact" className="link">Contact</Link></div>
+    </div>
   </div>
   )
 }
