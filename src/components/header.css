@@ -11,14 +11,15 @@
   align-items: center;
   width: 100%;
   padding: 20px;
-  gap: 5rem;
+  gap: 2em;
 }
 
 .items .link{
     text-decoration: none;
     border-radius: 10px;
     padding: 0.5em 0.9em;
-    font-size: 20px;
+    font-size: 17px;
+    font-weight: 550;
 
 }
 
