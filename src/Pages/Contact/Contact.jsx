@@ -2,7 +2,8 @@ import './contact.css'
 
 export default function Contact() {
   return (
-    <div className="contact-wrapper">
+    <div className="container">
+      <div className="contact-wrapper">
       <div className="content-right">
         <div className="item address">
           <img src="/assets/icons8-address-64.png" alt="" />
@@ -31,6 +32,7 @@ export default function Contact() {
           <button className="btn">Send</button>
         </div>
       </div>
+    </div>
     </div>
   )
 }
