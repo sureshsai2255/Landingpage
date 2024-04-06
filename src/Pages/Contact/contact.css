@@ -42,6 +42,12 @@
 
 }
 
+.item p{
+    color:#353A4A ;
+    font-size: 15px;
+    font-weight:bold ;
+}
+
 .content-left h2{
     color: #353A4A;
 }
