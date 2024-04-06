@@ -4,7 +4,7 @@ import React from 'react'
 export default function Home() {
   return (
 
-    <div className="container">
+    <div className="container" id='home'>
       <div className="content">
         <p><strong>Hi I'm </strong> <span className='name'>SAI KRISHNA </span>and currently pursuing graduation in the field of <span className='branch'>COMPUTER SCIENCE AND ENGINEERING</span></p>
       </div>

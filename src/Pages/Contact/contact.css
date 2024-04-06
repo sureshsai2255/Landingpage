@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.contact-wrapper {
+    font-family: Poppins;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1150px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 3px 7px 18px #3768E324;
+    position: absolute;
+    top: 10%;
+    left: 8%
+}
+
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    height: 400px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 50%;
+    height: 400px;
+
+}
+
+.content-left h2{
+    color: #353A4A;
+}
+
+.form-wrapper .form-fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    padding-left: 20px;
+}
+
+.name-wrapper .name {
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #E2E4F2;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px #3768E324;
+
+}
+
+.email-wrapper .email {
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #E2E4F2;
+    box-shadow: 1px 3px 5px #3768E324;
+}
+
+.message-wrapper .mssg {
+    width: 410px;
+    height:80px;
+    padding-left: 10px;
+    border-radius: 5px; 
+    border: 1px solid #E2E4F2;
+    outline: none;
+    padding-top: 10px;
+    box-shadow: 1px 3px 5px #3768E324;
+}
+input {
+    font-size: 15px;
+}
+input:focus {
+    outline: none;
+}
+
+.content-left .buttons{
+    align-content: center;
+    width: 100px;
+    height:50px ;
+    margin-left: 40px;
+}
+
+.buttons .btn{
+    border: none;
+    padding: 1em 1.5em;
+    border-radius: 10px;
+    color: white;
+    transition: all ease-in-out 500ms;
+    background-color: #315FD8;
+}
+
+.btn:hover{
+    padding: 1.2em 1.6em;
+}
