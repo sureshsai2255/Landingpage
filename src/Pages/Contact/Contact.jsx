@@ -1,38 +1,46 @@
 import './contact.css'
-
-export default function Contact() {
+const Contact = () => {
   return (
-    <div className="container">
-      <div className="contact-wrapper">
-      <div className="content-right">
-        <div className="item address">
-          <img src="/assets/icons8-address-64.png" alt="" />
-          <p>Thumalavari street kavali, Nellore,Andhra Pradesh</p>
-        </div>
-        <div className="item email">
-        <img src="/assets/icons8-email-48.png" alt="" />
+    <div className="contact-wrapper">
+      <div className="content-left">
+        <div className="items email">
+         <img src="./assets/email.png" alt="image" />
           <p>abc@example.com</p>
         </div>
-        <div className="item phone">
-        <img src="/assets/icons8-phone-48.png" alt="" />
+        <div className="items address">
+        <img src="./assets/address.png" alt="image" />
+          <p>Address</p>
+        </div>
+        <div className="items phone">
+        <img src="./assets/phone.png" alt="image" />
           <p>number</p>
         </div>
       </div>
-      <div className="content-left">
+      <div className="content-right">
         <h2>Contact Me</h2>
-
         <div className="form-wrapper">
-          <form className="form-fields">
-            <div className="name-wrapper"><input type="text" className="name" placeholder="Enter your name" /></div>
-            <div className="email-wrapper"><input type="email" className="email" placeholder="Enter your email" /></div>
-            <div className="message-wrapper"><textarea className="mssg" name="Message" placeholder='Message'></textarea></div>
-          </form>
+          <div className="wrappers name-wrapper">
+            <input type="text" className="name" placeholder="Enter your name" />
+          </div>
+          <div className="wrappers email-wrapper">
+            <input type="email" className="email" placeholder="Enter your email" />
+          </div>
+          <div className="wrappers message-wrapper">
+            <textarea
+              name="message"
+              className="mssg"
+              placeholder="Message"
+              defaultValue={""}
+            />
+          </div>
         </div>
         <div className="buttons">
-          <button className="btn">Send</button>
+          <button className="btn">Send Message</button>
         </div>
       </div>
     </div>
-    </div>
+
   )
 }
+
+export default Contact
